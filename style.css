@@ -180,7 +180,7 @@ button {
 .item-box {
     height: 60px;
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: start;
@@ -240,14 +240,15 @@ button {
     font-size: 20px;
     display: inline-flex;
 }
-.mood-text a{
+
+.mood-text a {
     text-decoration: none;
     font-size: 18px;
-        color: #0FA9D1;
+    color: #0FA9D1;
 
 }
 
-.mid-card-outer{
+.mid-card-outer {
     height: 100px;
     width: 100%;
     display: flex;
@@ -263,7 +264,7 @@ button {
     display: flex;
     border-radius: 10px;
     border: 1px solid gray;
-        box-shadow: 3px 3px 3px 3px #f8f4f4;
+    box-shadow: 3px 3px 3px 3px #f8f4f4;
 
 }
 
@@ -271,7 +272,8 @@ button {
     height: 70px;
     width: 30%;
 }
-.food-image img{
+
+.food-image img {
     padding: 10px;
     height: 100%;
     width: 100%;
@@ -289,55 +291,94 @@ button {
     width: 100%;
     padding: 10px 0px;
 }
-.heading-box h4{
+
+.heading-box h4 {
     font-weight: bold;
     margin-top: 6px;
-} 
+}
 
 .para-text {
     height: 32.5px;
     width: 100%;
 
-    
+
 }
-.para-text span{
+
+.para-text span {
     font-size: small;
     font-weight: 100;
 }
 
 /* Food box container */
 
-.food-card-container{
+.food-card-container {
     height: 300px;
     width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
 }
-.inner-food-box{
+
+.inner-food-box {
     height: 300px;
     width: 70%;
-    background-color: blanchedalmond;
 }
-.food-heading{
+
+.food-heading {
     width: 100%;
     height: 50px;
 }
-.food-heading h4{
-    padding:   12px;
-        font-size: 19px;
+
+.food-heading h4 {
+    padding: 12px;
+    font-size: 19px;
 
 }
-.food-heading h4 a{
-     text-decoration: none;
+
+.food-heading h4 a {
+    text-decoration: none;
     font-size: 18px;
-        color: #0FA9D1;
-        font-weight: normal;
+    color: #0FA9D1;
+    font-weight: normal;
 }
-.food-trends-card{
+
+.food-trends-card {
     height: 250px;
     width: 100%;
-    background-color: pink;
+    display: flex;
+    gap: 10px;
 }
+
+.card {
+    height: 200px;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+
+.card-image {
+    height: 120px;
+    width: 100%;
+    
+}
+
+.card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-text{
+    margin-top: 2px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+}
+.card-heading h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.card-para p{
+    margin-top: 10px;
+    color: #828181;
+} 
